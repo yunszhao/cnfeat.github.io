@@ -1,93 +1,26 @@
-
- <!DOCTYPE HTML>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[1000 Words a Day]]></title>
+  <subtitle><![CDATA[Writing 1000 Words a Day Changes My Life]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://www.cnfeat.com/"/>
+  <updated>2014-05-11T06:30:39.262Z</updated>
+  <id>http://www.cnfeat.com/</id>
   
-    <title>如何搭建一个独立博客——简明Github Pages与Hexo教程 | 1000 Words a Day</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
-    
-    <meta name="author" content="cnFeat">
-    
-    <meta name="description" itemprop="description" content="这是一篇很详尽的独立博客搭建教程，里面介绍了域名注册、DNS设置、github和Hexo设置等过程，这是我写得最长的一篇教程。我想将我搭建独立博客的过程在一篇文章中尽可能详细地写出来，希望能给后来者一个明确的指引，同时用这篇教程开篇，正式开始我的第八大洲之旅。">
-    
-    
-    
-    
-    <link rel="alternative" href="/atom.xml" title="1000 Words a Day" type="application/atom+xml">
-    
-    
-    <link rel="icon" href="/img/favicon.ico">
-    
-    
-    <link rel="apple-touch-icon" href="/img/jacman.jpg">
-    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
-    
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
-</head>
-
-  <body>
-    <header>
-      <div>
-		
-			<div id="imglogo">
-				<a href="/"><img src="/img/logo.png" alt="1000 Words a Day" title="1000 Words a Day"/></a>
-			</div>
-			
-			<div id="textlogo">
-				<h1 class="site-name"><a href="/" title="1000 Words a Day">1000 Words a Day</a></h1>
-				<h2 class="blog-motto">Writing 1000 Words a Day Changes My Life</h2>
-			</div>
-			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
-			</a></div>
-			<nav class="animated">
-				<ul>
-					<ul>
-					 
-						<li><a href="/">首页</a></li>
-					
-						<li><a href="/archives">归档</a></li>
-					
-						<li><a href="/about">关于</a></li>
-					
-					<li>
- 					
-					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
-						<label>Search</label>
-						<input type="search" id="search" autocomplete="off" name="q" maxlength="20" placeholder="Search" />
-					</form>
-					
-					</li>
-				</ul>
-			</nav>			
-</div>
-    </header>
-    <div id="container">
-      <div id="main" class="post" itemscope itemprop="blogPost">
-	<article itemprop="articleBody"> 
-		<header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2014/05/10/2014-05-11-how-to-build-a-blog/" title="如何搭建一个独立博客——简明Github Pages与Hexo教程" itemprop="url">如何搭建一个独立博客——简明Github Pages与Hexo教程</a>
-  </h1>
-  <p class="article-author">By
-      <a href="http://www.cnfeat.com/about" title="cnFeat" target="_blank">cnFeat</a>
-  <p class="article-time">
-    <time datetime="2014-05-10T05:31:54.000Z" itemprop="datePublished">发表于2014-05-10</time>
-    
-  </p>
-</header>
-	<div class="article-content">
-		
-		
-		<div id="toc" class="toc-article">
-			<strong class="toc-title">文章目录</strong>
-		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#为什么要搭建一个独立博客?"><span class="toc-number">2.</span> <span class="toc-text">为什么要搭建一个独立博客?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#小白进入门槛"><span class="toc-number">3.</span> <span class="toc-text">小白进入门槛</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#为什么选择GitHub_Pages？"><span class="toc-number">4.</span> <span class="toc-text">为什么选择GitHub Pages？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#GitHub_Pages是什么？"><span class="toc-number">5.</span> <span class="toc-text">GitHub Pages是什么？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#购买域名"><span class="toc-number">6.</span> <span class="toc-text">购买域名</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装准备软件"><span class="toc-number">7.</span> <span class="toc-text">安装准备软件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#怎么打开Git？"><span class="toc-number">8.</span> <span class="toc-text">怎么打开Git？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#注册GitHub"><span class="toc-number">9.</span> <span class="toc-text">注册GitHub</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置和使用Github"><span class="toc-number">10.</span> <span class="toc-text">配置和使用Github</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置SSH_keys"><span class="toc-number">11.</span> <span class="toc-text">配置SSH keys</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#检查SSH_keys的设置"><span class="toc-number">11.1.</span> <span class="toc-text">检查SSH keys的设置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#生成新的SSH_Key："><span class="toc-number">11.2.</span> <span class="toc-text">生成新的SSH Key：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加SSH_Key到GitHub"><span class="toc-number">11.3.</span> <span class="toc-text">添加SSH Key到GitHub</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#测试"><span class="toc-number">11.4.</span> <span class="toc-text">测试</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#设置用户信息"><span class="toc-number">11.5.</span> <span class="toc-text">设置用户信息</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SSH_Key配置成功"><span class="toc-number">11.6.</span> <span class="toc-text">SSH Key配置成功</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#使用GitHub_Pages建立博客"><span class="toc-number">12.</span> <span class="toc-text">使用GitHub Pages建立博客</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#github上建立仓库"><span class="toc-number">12.1.</span> <span class="toc-text">github上建立仓库</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#用Hexo克隆主题"><span class="toc-number">13.</span> <span class="toc-text">用Hexo克隆主题</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo介绍"><span class="toc-number">13.1.</span> <span class="toc-text">Hexo介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装Hexo"><span class="toc-number">13.2.</span> <span class="toc-text">安装Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#部署Hexo"><span class="toc-number">13.3.</span> <span class="toc-text">部署Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#复制cnfeat的主题"><span class="toc-number">13.4.</span> <span class="toc-text">复制cnfeat的主题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#启用cnfeat的主题"><span class="toc-number">13.5.</span> <span class="toc-text">启用cnfeat的主题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#更新主题"><span class="toc-number">13.6.</span> <span class="toc-text">更新主题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#本地查看调试"><span class="toc-number">13.7.</span> <span class="toc-text">本地查看调试</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#将独立域名与GitHub_Pages的空间绑定"><span class="toc-number">14.</span> <span class="toc-text">将独立域名与GitHub Pages的空间绑定</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#GitHub_Pages的设置"><span class="toc-number">14.1.</span> <span class="toc-text">GitHub Pages的设置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DNS设置"><span class="toc-number">14.2.</span> <span class="toc-text">DNS设置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#去Godaddy修改DNS地址"><span class="toc-number">14.3.</span> <span class="toc-text">去Godaddy修改DNS地址</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#搭建完成"><span class="toc-number">15.</span> <span class="toc-text">搭建完成</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#进阶篇：Hexo设置"><span class="toc-number">16.</span> <span class="toc-text">进阶篇：Hexo设置</span></a></li><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#修改局部页面"><span class="toc-number">16.1.</span> <span class="toc-text">修改局部页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#发表新文章"><span class="toc-number">16.2.</span> <span class="toc-text">发表新文章</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#用Hexo发表文章的Markdown语法"><span class="toc-number">16.3.</span> <span class="toc-text">用Hexo发表文章的Markdown语法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo命令"><span class="toc-number">16.4.</span> <span class="toc-text">Hexo命令</span></a></li></ol><li class="toc-item toc-level-2"><a class="toc-link" href="#安装插件"><span class="toc-number">17.</span> <span class="toc-text">安装插件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo上传README文件"><span class="toc-number">18.</span> <span class="toc-text">Hexo上传README文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#404页面"><span class="toc-number">19.</span> <span class="toc-text">404页面</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#图床"><span class="toc-number">20.</span> <span class="toc-text">图床</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考资料："><span class="toc-number">21.</span> <span class="toc-text">参考资料：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#相关链接"><span class="toc-number">22.</span> <span class="toc-text">相关链接</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#鸣谢"><span class="toc-number">23.</span> <span class="toc-text">鸣谢</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#关于我"><span class="toc-number">24.</span> <span class="toc-text">关于我</a></span></a></li></ol>
-		
-		</div>
-		
-		<p>摘要：这是一篇很详尽的独立博客搭建教程，里面介绍了域名注册、DNS设置、github和Hexo设置等过程，这是我写得最长的一篇教程。我想将我搭建独立博客的过程在一篇文章中尽可能详细地写出来，希望能给后来者一个明确的指引，同时用这篇教程开篇，正式开始我的第八大洲之旅。</p>
+  <author>
+    <name><![CDATA[cnFeat]]></name>
+    <email><![CDATA[cnFeat@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[如何搭建一个独立博客——简明Github Pages与Hexo教程]]></title>
+    <link href="http://www.cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/"/>
+    <id>http://www.cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/</id>
+    <published>2014-05-10T05:31:54.000Z</published>
+    <updated>2014-05-11T06:19:16.000Z</updated>
+    <content type="html"><![CDATA[<p>摘要：这是一篇很详尽的独立博客搭建教程，里面介绍了域名注册、DNS设置、github和Hexo设置等过程，这是我写得最长的一篇教程。我想将我搭建独立博客的过程在一篇文章中尽可能详细地写出来，希望能给后来者一个明确的指引，同时用这篇教程开篇，正式开始我的第八大洲之旅。</p>
 <h2 id="前言">前言</h2>
 <p>作为一个技术小白，没有技术基础，看网上的教程也云里雾里，看程序员的教程相当不容易，稍微有些细节描述得不清楚自己就要绕弯路去找答案（善用搜索引擎），所以，在自己的博客搭建完成之后，我决定要将我搭建博客的过程全记录下来，以供后期和我一样的小白参考（是的，我坚信还有很多一样和我一样的人），我会尽可能详细的整理这个教程，其中的资料可能会摘录到其他人的教程，我会在后面列出了参考资料，感谢这些作者们。</p>
 <p>为什么要开博客？可以看看我的这篇<a href="http://zhuanlan.zhihu.com/cnfeat/19743861" target="_blank">《为什么你要写博客？》</a></p>
@@ -526,290 +459,27 @@ $ npm install hexo<span class="attribute">-generator</span><span class="attribut
 <p>这里有我的个人简介：<a href="http://cnfeat.com/about/" target="_blank">关于我</a></p>
 <p>如果你想看到我最新的文章，可以关注我的微信公众号「cnfeat」。</p>
 <p><img src="http://pic.yupoo.com/vankos_v/DKocUZTZ/y8IhV.png" alt=""></p>
+]]></content>
+    
+    
+      <category term="Hexo" scheme="http://www.cnfeat.com/tags/Hexo/"/>
+    
+      <category term="github" scheme="http://www.cnfeat.com/tags/github/"/>
+    
+      <category term="独立博客" scheme="http://www.cnfeat.com/tags/%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
-	</div>
-		<footer class="article-footer clearfix">
-
-
-  <div class="article-tags">
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://www.cnfeat.com/2014/04/30/hello-world/"/>
+    <id>http://www.cnfeat.com/2014/04/30/hello-world/</id>
+    <published>2014-04-30T12:57:50.000Z</published>
+    <updated>2014-05-10T16:27:44.000Z</updated>
+    <content type="html"><![CDATA[<p>照例都要来一篇名为《Hello World》文章，以此开篇，踏上旅途。</p>
+]]></content>
+    
+    
+  </entry>
   
-  <span></span> <a href="/tags/Hexo/">Hexo</a><a href="/tags/github/">github</a><a href="/tags/独立博客/">独立博客</a>
-  </div>
-
-
-
-
-<div class="article-share" id="share">
-
-  <div data-url="http://www.cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/" data-title="如何搭建一个独立博客——简明Github Pages与Hexo教程 | 1000 Words a Day" data-tsina="207775270" class="share clearfix">
-  </div>
-
-</div>
-</footer>   	       
-	</article>
-	
-<nav class="article-nav clearfix">
- 
-
-<div class="next">
-<a href="/2014/04/30/hello-world/"  title="Hello World">
- <strong>下一篇：</strong><br/> 
- <span>Hello World
-</span>
-</a>
-</div>
-
-</nav>
-
-	
-<section class="comment">
-	<div class="ds-thread"></div>
-</section>
-
-</div>  
-      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
-
-<div id="asidepart">
-<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
-<aside class="clearfix">
-
-  
-
-  
-<div class="tagslist">
-	<p class="asidetitle">标签</p>
-		<ul class="clearfix">
-		
-			<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>1</sup></a></li>
-		
-			<li><a href="/tags/github/" title="github">github<sup>1</sup></a></li>
-		
-			<li><a href="/tags/独立博客/" title="独立博客">独立博客<sup>1</sup></a></li>
-		
-		</ul>
-</div>
-
-
-  <div class="linkslist">
-  <p class="asidetitle">友情链接</p>
-    <ul>
-      <li><a href="http://blog.sina.com.cn/cnfeat" target="_blank" title="YangJian">千字文练习地</a></li>
-     
-    </ul>
-</div>
-
-  <div class="rsspart">
-	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
-</div>
-
-</aside>
-</div>
-    </div>
-    <footer><div id="footer" >
-	
-	<div class="line">
-		<span></span>
-		
-		<a href="http://weibo.com/cnFeat」，每天千字文践行者，欢迎关注。Feat" target="_blank"><div class="author"></div></a>
-		
-	</div>
-	
-	
-	<section class="info">
-		<p> 你好，我是陈锦辉，微信公众号「cnFeat」，每天千字文践行者，欢迎关注。 <br/>
-			学习总结、思考感悟、知识管理。Behavior matters more than outcomes</p>
-	</section>
-	 
-	<div class="social-font" class="clearfix">
-		
-		<a href="http://weibo.com/cnFeat」，每天千字文践行者，欢迎关注。Feat" target="_blank" class="icon-weibo" title="weibo"></a>
-		
-		
-		<a href="https://github.com/cnfeat" target="_blank" class="icon-github" title="github"></a>
-		
-		
-		
-		
-		
-		<a href="https://www.douban.com/people/cnfeat" target="_blank" class="icon-douban" title="豆瓣"></a>
-		
-		
-		
-	</div>
-		<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Pacman">Jacman</a> © 2014 
-		
-		<a href="http://www.cnfeat.com/about" target="_blank" title="cnFeat">cnFeat</a>
-		
-		</p>
-</div>
-</footer>
-    <script src="/js/jquery-2.0.3.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){ 
-  $('.navbar').click(function(){
-    $('header nav').toggleClass('shownav');
-  });
-  var myWidth = 0;
-  function getSize(){
-    if( typeof( window.innerWidth ) == 'number' ) {
-      myWidth = window.innerWidth;
-    } else if( document.documentElement && document.documentElement.clientWidth) {
-      myWidth = document.documentElement.clientWidth;
-    };
-  };
-  var m = $('#main'),
-      a = $('#asidepart'),
-      c = $('.closeaside'),
-      o = $('.openaside');
-  $(window).resize(function(){
-    getSize(); 
-    if (myWidth >= 1024) {
-      $('header nav').removeClass('shownav');
-    }else
-    {
-      m.removeClass('moveMain');
-      a.css('display', 'block').removeClass('fadeOut');
-      o.css('display', 'none');
-        
-    }
-  });
-  c.click(function(){
-    a.addClass('fadeOut').css('display', 'none');
-    o.css('display', 'block').addClass('fadeIn');
-    m.addClass('moveMain');
-  });
-  o.click(function(){
-    o.css('display', 'none').removeClass('beforeFadeIn');
-    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
-    m.removeClass('moveMain');
-  });
-  $(window).scroll(function(){
-    o.css("top",Math.max(80,260-$(this).scrollTop()));
-  });
-});
-</script>
-
-<script type="text/javascript">
-$(document).ready(function(){ 
-  var ai = $('.article-content>iframe'),
-      ae = $('.article-content>embed'),
-      t  = $('#toc'),
-      h  = $('article h2')
-      ah = $('article h2'),
-      ta = $('#toc.toc-aside'),
-      o  = $('.openaside'),
-      c  = $('.closeaside');
-  if(ai.length>0){
-    ai.wrap('<div class="video-container" />');
-  };
-  if(ae.length>0){
-   ae.wrap('<div class="video-container" />');
-  };
-  if(ah.length==0){
-    t.css('display','none');
-  }else{
-    c.click(function(){
-      ta.css('display', 'block').addClass('fadeIn');
-    });
-    o.click(function(){
-      ta.css('display', 'none');
-    });
-    $(window).scroll(function(){
-      ta.css("top",Math.max(140,320-$(this).scrollTop()));
-    });
-  };
-});
-</script>
-
-
-<script type="text/javascript">
-$(document).ready(function(){ 
-  var $this = $('.share'),
-      url = $this.attr('data-url'),
-      encodedUrl = encodeURIComponent(url),
-      title = $this.attr('data-title'),
-      tsina = $this.attr('data-tsina');
-  var html = [
-  '<a href="#" class="overlay" id="qrcode"></a>',
-  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
-  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
-  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
-  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
-  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
-  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
-  '<span title="Share to"></span>'
-  ].join('');
-  $this.append(html);
-  $('.article-share-qrcode').click(function(){
-    var imgSrc = $('#qrcode-pic').attr('data-src');
-    $('#qrcode-pic').attr('src', imgSrc);
-    $('#qrcode-pic').load(function(){
-        $('.qrcode strong').text(' ');
-    });
-  });
-});     
-</script>
-
-
-<script type="text/javascript">
-  var duoshuoQuery = {short_name:"cnfeat"};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] 
-    || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-</script> 
-
-
-
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){ 
-  $('.article-content').each(function(i){
-    $(this).find('img').each(function(){
-      if ($(this).parent().hasClass('fancybox')) return;
-      var alt = this.alt;
-      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
-      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
-    });
-    $(this).find('.fancybox').each(function(){
-      $(this).attr('rel', 'article' + i);
-    });
-  });
-  if($.fancybox){
-    $('.fancybox').fancybox();
-  }
-}); 
-</script>
-
-
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', '014837970379017543451:yt9oonr1nva', 'cnfeat.com');  
-ga('send', 'pageview');
-</script>
-
-
-<div id="totop">
-<a title="返回顶部"><img src="/img/scrollup.png"/></a>
-</div>
-
-<script src="/js/totop.js"></script>
-
-<script type="text/x-mathjax-config"> 
-MathJax.Hub.Config({ 
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]} 
-}); 
-</script>
-<script type="text/javascript"
-   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-  </body>
-</html>
+</feed>
