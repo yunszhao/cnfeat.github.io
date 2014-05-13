@@ -108,7 +108,7 @@
 <li>2、学着用github，享受github的便利，上面有很多大牛，眼界会开阔很多；</li>
 <li>3、顺便看看github工作原理，最好的团队协作流程；</li>
 <li>4、github是趋势；</li>
-<li>5、你不觉得一个文科生用github很greek吗？瞬间跻身技术界；</li>
+<li>5、你不觉得一个文科生用github很geek吗？瞬间跻身技术界；</li>
 <li>6、就算github被墙了，我可以搬到国内的gitcafe中去。</li>
 </ul>
 <p><img src="http://cnfeat.qiniudn.com/bg2012082502.jpg" alt=""></p>
@@ -183,6 +183,7 @@ Enter file <span class="keyword">in</span> which <span class="keyword">to</span>
 <pre><code><span class="constant">Enter</span> passphrase (empty <span class="keyword">for</span> no passphrase)<span class="symbol">:&lt;</span>输入加密串&gt;
 <span class="constant">Enter</span> same passphrase <span class="symbol">again:</span>&lt;再次输入加密串&gt;
 </code></pre><p>在回车中会提示你输入一个密码，这个密码会在你提交项目时使用，如果为空的话提交项目时则不用输入。这个设置是防止别人往你的项目里提交内容。</p>
+<p>注意：输入密码的时候没有*字样的，你直接输入就可以了。</p>
 <p>最后看到这样的界面，就成功设置ssh key了：</p>
 <p><img src="http://pic.yupoo.com/vankos_v/DKi6S7PO/lpjsl.png" alt=""></p>
 <h3 id="添加SSH_Key到GitHub">添加SSH Key到GitHub</h3>
@@ -238,15 +239,24 @@ $ git config --<span class="keyword">global</span> user.email  <span class="stri
 <p>在我的电脑中建立一个名字叫「Hexo」的文件夹，然后在此文件夹中右键打开Git Bash。</p>
 <pre><code><span class="variable">$ </span>hexo init
 </code></pre><p>Hexo随后会自动在目标文件夹建立网站所需要的所有文件。</p>
-<h3 id="复制cnfeat的主题">复制cnfeat的主题</h3>
-<p>建立了Hexo文件之后就可以复制我的主题了</p>
-<pre><code><span class="variable">$ </span>git clone <span class="symbol">https:</span>/<span class="regexp">/github.comcnfeat/cnfeat</span>.git themes/jacman
+<p>现在我们已经搭建起本地的hexo博客了，执行以下命令(在H:\hexo)，然后到浏览器输入localhost:4000看看。</p>
+<pre><code><span class="variable">$ </span>hexo g
+<span class="variable">$ </span>hexo s
+</code></pre><h3 id="复制cnfeat的主题">复制cnfeat的主题</h3>
+<p>以下进入复制主题环节，如果那一步出现问题，或者修改后没有显示修改的结果，建议来来一个，再看看，可以解决很多问题。</p>
+<pre><code><span class="variable">$ </span>hexo clean
+<span class="variable">$ </span>hexo g
+<span class="variable">$ </span>hexo s
+</code></pre><p>建立了Hexo文件之后就可以复制我的主题了</p>
+<pre><code><span class="variable">$ </span>git clone <span class="symbol">https:</span>/<span class="regexp">/github.com/cnfeat</span><span class="regexp">/cnfeat.git themes/jacman</span>
 </code></pre><p>如果不行，可以复制wuchong的修改的主题，我的就是复制他的修改的。</p>
 <pre><code><span class="variable">$ </span>git clone <span class="symbol">https:</span>/<span class="regexp">/github.com/wuchong</span><span class="regexp">/jacman.git themes/jacman</span>
 </code></pre><p>或者复制yangjian的</p>
 <pre><code><span class="variable">$ </span>git clone <span class="symbol">https:</span>/<span class="regexp">/github.com/</span><span class="constant">A</span>-limon/pacman.git themes/pacman
 </code></pre><h3 id="启用cnfeat的主题">启用cnfeat的主题</h3>
 <p>修改Hexo目录下的config.yml配置文件中的theme属性，将其设置为jacman。同时请设置stylus属性中的compress值为true。</p>
+<pre><code><span class="attribute">theme</span>: <span class="string">jacman</span>
+</code></pre><p>注意：Hexo有两个config.yml文件，一个在根目录，一个在theme下，此时修改的是在根目录下的。</p>
 <h3 id="更新主题">更新主题</h3>
 <pre><code><span class="variable">$ </span>cd themes/jacman
 <span class="variable">$ </span>git pull
@@ -440,7 +450,7 @@ $ git config --<span class="keyword">global</span> user.email  <span class="stri
 <p>使用jacman或pacman主题，建议按此标准语法写：</p>
 <pre><code>title: postName #文章页面上的显示名称，可以任意修改，不会出现在URL中
 date: 2013-12-02 15:30:16 #文章生成时间，一般不改，当然也可以任意修改
-category: example #分类
+categories: example #分类
 tags: [tag1,tag2,tag3] #文章标签，可空，多标签请用格式，注意:后面有个空格
 <span class="header">description: 附加一段文章摘要，字数最好在140字以内。
 ---</span>
@@ -509,7 +519,7 @@ $ npm install hexo<span class="attribute">-generator</span><span class="attribut
 <p>[17]<a href="http://c4fun.cn/blog/2014/03/03/use-hexo-blog/" target="_blank">使用Hexo搭建个人博客</a> by c4fun</p>
 <p>[18]<a href="http://kescoode.com/2013/11/17/github-page-and-hexo-guide/" target="_blank">Github Pages与Hexo建个人博客流程</a> by Kesco</p>
 <p>[19]<a href="http://zipperary.com/2013/05/26/ssh-errors-with-github/" target="_blank">Git push时重复输入用户名密码的问题</a> by zippera</p>
-<p><a href="http://www.solarck.com/" target="_blank">hexo文件结构及网站优化</a> by kevin chen</p>
+<p>[20]<a href="http://www.solarck.com/" target="_blank">hexo文件结构及网站优化</a> by kevin chen</p>
 <h2 id="相关链接">相关链接</h2>
 <p>[1]<a href="https://pages.github.com/" target="_blank">GitHub Pages主页</a></p>
 <p>[2]<a href="http://www.godaddy.com/" target="_blank">godaddy域名商</a></p>
