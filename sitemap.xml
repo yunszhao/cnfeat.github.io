@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.cnfeat.com/2014/05/12/2014-05-13-the-method-of-personal-knowledge-management/</loc>
-    <lastmod>2014-05-12T14:52:39.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/</loc>
     <lastmod>2014-05-10T05:31:54.000Z</lastmod>
   </url>
@@ -14,6 +9,16 @@
   <url>
     <loc>http://www.cnfeat.com/about/index.html</loc>
     <lastmod>2014-05-10T15:54:36.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.cnfeat.com/2014/05/13/2014-05-13-the-method-of-personal-knowledge-management/</loc>
+    <lastmod>2014-05-13T08:47:34.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.cnfeat.com/2014/05/13/2014-05-16-how-i-learn-mindmap/</loc>
+    <lastmod>2014-05-13T13:44:49.000Z</lastmod>
   </url>
   
   <url>
