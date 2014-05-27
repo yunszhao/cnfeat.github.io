@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Writing 1000 Words a Day Changes My Life]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.cnfeat.com/"/>
-  <updated>2014-05-27T15:22:05.428Z</updated>
+  <updated>2014-05-27T15:36:02.217Z</updated>
   <id>http://www.cnfeat.com/</id>
   
   <author>
@@ -15,14 +15,12 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[]]></title>
+    <title><![CDATA[如何构建自主学习环境——这仅仅是个开始]]></title>
     <link href="http://www.cnfeat.com/2014/05/27/2014-05-27-SOLE/"/>
     <id>http://www.cnfeat.com/2014/05/27/2014-05-27-SOLE/</id>
-    <published>2014-05-27T15:20:46.000Z</published>
-    <updated>2014-05-27T15:20:05.000Z</updated>
-    <content type="html"><![CDATA[<p>title: 如何构建自主学习环境——这仅仅是个开始<br>date: 2014-05-27 23:19:17<br>categories:学习<br>tags: [学习,知识]</p>
-<h2 id="description:_人就如此，不仅不懂得如何提问，而且不懂得如何自学，提问需要智慧，自学需要的就不仅仅是好奇心，还要小孩子一样的心态。。">description: 人就如此，不仅不懂得如何提问，而且不懂得如何自学，提问需要智慧，自学需要的就不仅仅是好奇心，还要小孩子一样的心态。。</h2>
-<p>有一个印度人，他叫Sugata Mitra，他觉得编程很有用，于是他选择了一份很有前途的工作：教人编程。同时，他又是一位有追求的程序员和教师，他有一个伟大的想法：如何才能够让更多的人自主地学习编程。</p>
+    <published>2014-05-27T15:19:17.000Z</published>
+    <updated>2014-05-27T15:35:31.000Z</updated>
+    <content type="html"><![CDATA[<p>有一个印度人，他叫Sugata Mitra，他觉得编程很有用，于是他选择了一份很有前途的工作：教人编程。同时，他又是一位有追求的程序员和教师，他有一个伟大的想法：如何才能够让更多的人自主地学习编程。</p>
 <p>他想了很久，直到1999年，他发现了一些端倪。</p>
 <p>199年，电脑仍旧是很贵重的物品，所以往往只有富人们的孩子才有权利去学习编程，家长们将孩子们送过来的时候通常会对他说：「我儿子骨骼精奇，是块学编程的料，我女儿也天赋秉异，假以时日必成大器」。</p>
 <p>他当时就疑惑了，「你妹的，凭什么富人们的孩子都是天才，穷苦人家的孩子就不能出现编程天才吗？」</p>
@@ -72,6 +70,12 @@
 <p>「墙中洞」实验项目在流行文化也留下了烙印。印度小说作家兼外交官维卡斯·史瓦卢普读了有关「墙中洞」实验报道后，有感而发，创作了小说处女作《Q&amp;A》，随后改编为奥斯卡金像奖获奖电影《贫民窟的百万富翁》。</p>
 ]]></content>
     
+    
+      <category term="学习" scheme="http://www.cnfeat.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="知识" scheme="http://www.cnfeat.com/tags/%E7%9F%A5%E8%AF%86/"/>
+    
+      <category term="学习" scheme="http://www.cnfeat.com/categories/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
